@@ -1,0 +1,7 @@
+var (
+	Dragon Dragon
+	Shark  Shark
+	chomp  Sound
+)
+
+run "resources", {Title: "Dragon (by Go+)"}

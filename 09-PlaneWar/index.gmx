@@ -1,0 +1,21 @@
+var (
+	Backdrop                                         Backdrop
+	YouWin                                           YouWin
+	Bomb                                             Bomb
+	TextIntro                                        TextIntro
+	GameLogo                                         GameLogo
+	GameStart                                        GameStart
+	MyPlane                                          MyPlane
+	MiddleEnemy                                      MiddleEnemy
+	HugeEnemy                                        HugeEnemy
+	Bullet                                           Bullet
+	SmallEnemy                                       SmallEnemy
+	GameOver                                         GameOver
+	bulletX                                          float64
+	bulletY                                          float64
+	planeX                                           float64
+	planeY                                           float64
+	bombs                                            int
+)
+
+run "resources", {Title: "Plane War (by Go+)"}
